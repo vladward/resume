@@ -1,13 +1,17 @@
 import React from 'react'
-import './App.css';
+import s from './App.module.css';
 import {Header} from "./header/Header";
+import {Main} from "./main/Main";
+import {Skills} from "./skills/Skills";
 
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-    </div>
-  );
+    return (
+        <div className={s.App}>
+            <Header/>
+            <Main/>
+            <Skills/>
+        </div>
+    );
 }
 
 export default App;

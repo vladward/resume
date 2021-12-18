@@ -1,4 +1,6 @@
-.header {
-    height: 80px;
-    background-color: cadetblue;
+.nav {
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
 }

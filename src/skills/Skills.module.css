@@ -19,4 +19,9 @@
     justify-content: space-between;
     text-align: center;
     flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.skills:last-child {
+    margin-bottom: 0;
 }

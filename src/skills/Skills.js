@@ -19,6 +19,16 @@ export function Skills() {
                     <Skill title={'CSS'} description={descriptions[2]}/>
                     <Skill title={'JS'} description={descriptions[3]}/>
                 </div>
+                <div className={s.skills}>
+                    <Skill title={'JS'} description={descriptions[3]}/>
+                    <Skill title={'CSS'} description={descriptions[2]}/>
+                    <Skill title={'HTML'} description={descriptions[1]}/>
+                </div>
+                <div className={s.skills}>
+                    <Skill title={'CSS'} description={descriptions[2]}/>
+                    <Skill title={'HTML'} description={descriptions[1]}/>
+                    <Skill title={'JS'} description={descriptions[3]}/>
+                </div>
             </div>
         </div>
     )

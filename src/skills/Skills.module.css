@@ -1,5 +1,4 @@
 .skillsBlock {
-    height: 100vh;
     background-color: burlywood;
 }
 
@@ -20,8 +19,15 @@
     text-align: center;
     flex-wrap: wrap;
     margin-bottom: 80px;
+    /*padding: 20px;*/
 }
 
 .skills:last-child {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 1590px) {
+    .skills {
+        justify-content: space-around;
+    }
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import s from './Skills.module.css'
 import c from './../common/styles/Container.module.css'
 import {Skill} from "./Skill";
+import {Title} from "../common/Title/Title";
 
 
 export function Skills() {
@@ -13,20 +14,22 @@ export function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={`${c.container} ${s.skillsContainer}`}>
-                <h2 className={s.skillsTitle}>My skills</h2>
+                <Title title={'Skills'}/>
                 <div className={s.skills}>
                     <Skill title={'HTML'} description={descriptions[1]}/>
                     <Skill title={'CSS'} description={descriptions[2]}/>
                     <Skill title={'JS'} description={descriptions[3]}/>
-                </div>
-                <div className={s.skills}>
+
                     <Skill title={'JS'} description={descriptions[3]}/>
                     <Skill title={'CSS'} description={descriptions[2]}/>
                     <Skill title={'HTML'} description={descriptions[1]}/>
-                </div>
-                <div className={s.skills}>
+
                     <Skill title={'CSS'} description={descriptions[2]}/>
                     <Skill title={'HTML'} description={descriptions[1]}/>
+                    <Skill title={'JS'} description={descriptions[3]}/>
+
+                    <Skill title={'JS'} description={descriptions[3]}/>
+                    <Skill title={'JS'} description={descriptions[3]}/>
                     <Skill title={'JS'} description={descriptions[3]}/>
                 </div>
             </div>

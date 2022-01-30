@@ -1,9 +1,10 @@
 .skill {
-    width: 250px;
+    width: 400px;
     background-color: blueviolet;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
 }
 
 .icon {

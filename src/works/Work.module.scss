@@ -1,0 +1,43 @@
+.work {
+  width: 350px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+
+  .workImage {
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+    .viewButton {
+      background-color: salmon;
+      padding: 10px 20px;
+    }
+  }
+
+  .workTitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #fff;
+    margin: 0 0 5px;
+    text-transform: capitalize;
+  }
+
+  .workDescription {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 1590px) {
+  .work {
+    width: 450px;
+  }
+}

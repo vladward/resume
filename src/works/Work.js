@@ -1,15 +1,16 @@
 import React from 'react';
 import s from './Work.module.scss'
-import c from './../common/styles/Container.module.css'
 
-export const Work = (props) => {
+export const Work = ({style, title, description}) => {
     return (
         <div className={s.work}>
-            <div className={s.workImage}>
+            <div className={s.workImage} style={style}>
                 <a className={s.viewButton}>View</a>
             </div>
-            <h3 className={s.workTitle}>{props.title}</h3>
-            <span className={s.workDescription}>{props.description}</span>
+            <div className={s.workInfo}>
+                <h3 className={s.workTitle}>{title}</h3>
+                <span className={s.workDescription}>{description}</span>
+            </div>
         </div>
     )
 }

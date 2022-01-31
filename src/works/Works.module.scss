@@ -1,31 +1,27 @@
-.worksContainer {
+@import 'src/common/styles/scss/variables';
+
+.works {
+  background-color: $bgColor;
+  padding: 100px 0;
+
+  .worksContainer {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
-}
 
-.works {
-    background-color: palevioletred;
-}
-
-.worksItem {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.workItemChild {
-    margin: 30px 0 50px 0;
-}
-
-.workItem {
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1590px) {
     .worksItem {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      align-items: flex-start;
+
+      @media screen and (max-width: 1590px) {
         justify-content: space-around;
+      }
     }
+  }
 }
+
+

@@ -1,13 +1,15 @@
+@import "src/common/styles/scss/variables";
+
 .title {
   margin: 0 0 30px;
 
-  h2 {
+  & h2 {
     position: relative;
     font-size: 36px;
     font-family: 'Lato', sans-serif;
     margin: 0;
     font-weight: 300;
-    color: #fff;
+    color: $textColor;
     text-transform: capitalize;
     line-height: 1.2;
     letter-spacing: 5px;
@@ -22,6 +24,6 @@
     left: 50%;
     transform: translate(-50%, 50%);
 
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid $primaryColor;
   }
 }

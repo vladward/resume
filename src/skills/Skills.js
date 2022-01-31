@@ -1,6 +1,6 @@
 import React from 'react'
-import s from './Skills.module.css'
-import c from './../common/styles/Container.module.css'
+import s from './Skills.module.scss'
+import c from '../common/styles/Container.module.scss'
 import {Skill} from "./Skill";
 import {Title} from "../common/Title/Title";
 

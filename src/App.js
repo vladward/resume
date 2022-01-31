@@ -1,4 +1,4 @@
-import s from './App.css';
+import s from './App.scss';
 import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
